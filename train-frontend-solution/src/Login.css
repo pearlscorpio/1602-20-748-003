@@ -1,0 +1,76 @@
+/* Apply some global styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Style the login container */
+  .container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 400px;
+    text-align: center;
+  }
+  
+  /* Style the form inputs */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+  }
+  
+  /* Style the login button */
+  .btn-secondary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the link button */
+  .btn-link {
+    color: #007bff;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .btn-link:hover {
+    color: #0056b3;
+  }
+  
+  /* Center the link button */
+  .create-account {
+    margin-top: 1rem;
+  }
+  
